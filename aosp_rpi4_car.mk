@@ -105,3 +105,5 @@ PRODUCT_NAME := aosp_rpi4_car
 PRODUCT_BRAND := Raspberry
 PRODUCT_MODEL := Pi 4
 PRODUCT_MANUFACTURER := Raspberry
+
+$(call inherit-product, vendor/VehicleScan/vehiclescan.mk)
